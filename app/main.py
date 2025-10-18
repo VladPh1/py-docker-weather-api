@@ -14,7 +14,6 @@ def get_weather() -> None:
     if not api_key:
         print("Error: API key not provided.")
         return
-
     params = {
         "key": api_key,
         "q": CITY,
